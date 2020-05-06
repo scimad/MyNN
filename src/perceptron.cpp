@@ -1,5 +1,7 @@
 #include "perceptron.hpp"
 
+namespace mynn
+{
 Perceptron::Perceptron(/* args */)
 {
     w = 1;
@@ -18,4 +20,6 @@ weight Perceptron::get_weight()
 bias Perceptron::get_bias()
 {
     return b;    
+}
+
 }

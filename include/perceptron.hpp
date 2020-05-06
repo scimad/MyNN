@@ -2,8 +2,8 @@
 #define _PERCEPTRON
 
 #include "mynn.hpp"
-using namespace mynn;
-
+namespace mynn
+{
 class Perceptron
 {
 private:
@@ -18,5 +18,8 @@ public:
     bias get_bias();
 
 };
+
+
+}
 
 #endif
